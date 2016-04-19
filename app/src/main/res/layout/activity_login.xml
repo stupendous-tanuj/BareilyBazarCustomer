@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_50"
+                android:src="@drawable/index" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="@dimen/dp_50"
+                android:gravity="center_horizontal"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingRight="@dimen/dp_20"
+                android:text="Let's start by verifying your 10-digit"
+                android:textColor="@color/color_base"
+                android:textSize="@dimen/sp_17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:gravity="center_horizontal"
+                android:text="Mobile Number"
+                android:textColor="@color/color_base"
+                android:textSize="@dimen/sp_17" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_30">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginLeft="@dimen/dp_50"
+                    android:layout_marginRight="@dimen/dp_5"
+                    android:gravity="center"
+                    android:text="+91"
+                    android:textColor="@color/color_base"
+                    android:textSize="@dimen/sp_15" />
+
+                <EditText
+                    android:id="@+id/et_login_mobile_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="@dimen/dp_50"
+                    android:layout_toEndOf="@+id/textView3"
+                    android:layout_toRightOf="@+id/textView3"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Enter mobile number"
+                    android:inputType="phone"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingRight="@dimen/dp_10"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/color_base"
+                    android:textSize="@dimen/sp_15" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_login_continue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@color/color_base"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dp_10"
+                android:paddingLeft="@dimen/dp_35"
+                android:paddingRight="@dimen/dp_35"
+                android:paddingTop="@dimen/dp_10"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_20"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_50"
+                android:paddingRight="@dimen/dp_50"
+                android:text="We will send a one time SMS message to verify your mobile number"
+                android:textColor="@color/color_base"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminate="false"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-e93280c78bed87645dfe258022e18a36da347d2c.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-e6573342dd0039865735c1093b85c33b78336828.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-c1900fbb29df3f1d0fd6e162bf099d36431feac1.jar" />
+    </item>
+    <item
+        jar="/home/umesh/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/gson-2.2.4-f544a93ae91b81dbb50eb143b96cf0b64d4cb768.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/customerapp/universalimageloaderlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5a4134430cde8f61d755b7f278a3f9fbc0db450">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-0f4d5d707c1b9dd035f34a8e130a89a11d7660a7.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-d8334c53990f087356baf46a579ce58bdc4ddff3.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-003b16978027ba71567168374e455ad12d278afd.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-33a22ed882fbf1e0c2814e645b9bcfb23a4e0df9.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-d3c2611cd2bfc5d96baa5687f56c5d8dfc505893.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-593e0e18aac5c5057bcaf31acf3c8132d48dccf6.jar" />
+    </item>
+    <item
+        jar="/home/umesh/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/library-2.4.0-b739e2b654dde45e6aa671332dfa683d990df60b.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-01b8aefbec26f1feabee9d23bb8c8f6e3c067d68.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-5a875eb0be49a07c73643241495ef45414264e0c.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-38da59d949346d2189a871da9041e1a412fd9753.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-6401a314125927ce385689d1e28e1e02d94e4382.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-bd278440f8791a306a9bd6c2740064afc4d80ec2.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.7.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0b3bbe3dc415a3fe112e7c28de53fd194fe4416e">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-7a0c5fce7083bc003c74fc19170e4f828a7d48bc.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-223c76867cc73ceb5ff94ba70f675226c3b170a4.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-d2b50de0883332ce3fe0fd12dad3708d3b1287e0.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-a0763d234fc76d32859579bb8a836f70ce75a4c5.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-af625291335db52b7a22d3251ab18ce873ba3550.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-33eece064c9b19423352bf5fec8a1bc5063c1ca6.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-84b0f8bd161920451d603b6603c6fafe25a8c4e4.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-2d7338c1ef7a62f26c64ceb1cf1f61bbe5910fa4.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-5c6ee2f7e4a78a21ca537edadfa74c3fb19d1a02.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-617788745ec174c52198119ea8c387088b1dd677.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-80c5c2947ed15c56d35f5de0dd4764bfff526748.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-6246d3efe71106287777a7e2329ce6ee30585ae6.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/libs/volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7eb90d3407943ccbac85ddb1406522baa36ef0ba">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/volley-dd039e3891ad305bec5db83d92cbeb41e93b49a6.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-6906fe38ba368165595febae11767bca1828be52.jar" />
+    </item>
+    <item
+        jar="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="/home/umesh/Documents/Project/Tanuj/customerapp/app/build/intermediates/pre-dexed/debug/classes-70f2bf964b04694258ad0ed391e1465245ca6ffc.jar" />
+    </item>
+
+</items>
