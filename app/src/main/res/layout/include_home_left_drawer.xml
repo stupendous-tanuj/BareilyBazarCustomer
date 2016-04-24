@@ -21,7 +21,7 @@
             android:layout_marginRight="@dimen/dp_10"
             android:gravity="center"
             android:padding="@dimen/dp_4"
-            android:text="Edit"
+            android:text="@string/label_Edit"
             android:textColor="@color/color_base"
             android:textSize="@dimen/sp_9"
             android:textStyle="italic|bold"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp_3"
                 android:gravity="center"
-                android:text="9711887660"
+                android:text=""
                 android:textColor="@color/white"
                 android:textSize="@dimen/sp_13"
                 android:textStyle="bold" />
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp_3"
                 android:gravity="center"
-                android:text="9711887660"
+                android:text=""
                 android:textColor="@color/white"
                 android:textSize="@dimen/sp_13"
                 android:textStyle="bold" />
@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:maxLines="3"
-                android:text="11 Sector 22, Noida"
+                android:text=""
                 android:textColor="@color/white"
                 android:textSize="@dimen/sp_11"
                 android:textStyle="italic" />

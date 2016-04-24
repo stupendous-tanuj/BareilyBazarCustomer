@@ -45,7 +45,7 @@
                     android:id="@+id/tv_pcatelog_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Amul Butter"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_13" />
 
@@ -56,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/imageView"
                     android:layout_marginTop="@dimen/dp_3"
-                    android:text="this is product description. see here"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_9" />
 
@@ -65,7 +65,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dp_3"
-                    android:text="gsm"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_10" />
 
@@ -74,7 +74,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dp_3"
-                    android:text="Price : 12.00"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_11"
                     android:textStyle="bold" />
@@ -101,7 +101,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Rs. 10"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_11" />
 

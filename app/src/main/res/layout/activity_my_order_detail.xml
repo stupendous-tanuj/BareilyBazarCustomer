@@ -37,7 +37,7 @@
                     android:paddingBottom="@dimen/dp_5"
                     android:paddingLeft="@dimen/dp_10"
                     android:paddingTop="@dimen/dp_5"
-                    android:text="Order ID"
+                    android:text="@string/label_Order_ID"
                     android:textColor="@color/white"
                     android:textSize="@dimen/sp_13" />
 
@@ -51,7 +51,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
-                        android:text="Amount"
+                        android:text="@string/label_Amount"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -61,7 +61,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="@dimen/dp_10"
                         android:gravity="right"
-                        android:text="Total Rs. "
+                        android:text="@string/label_Total_Rs"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -84,7 +84,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Placed By"
+                        android:text="@string/label_Order_Placed_By"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -110,7 +110,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Placed To"
+                        android:text="@string/label_Order_Placed_To"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -136,7 +136,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Delivery Type"
+                        android:text="@string/label_Delivery_Type"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -163,7 +163,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Payment Method"
+                        android:text="@string/label_Payment_Method"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -172,7 +172,6 @@
                         android:id="@+id/tv_order_detail_delivery_method"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-
                         android:layout_weight="1"
                         android:text=""
                         android:textColor="@color/black"
@@ -191,7 +190,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Status"
+                        android:text="@string/label_Order_Status"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -218,7 +217,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Customer Message"
+                        android:text="@string/label_Customer_Message"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -246,7 +245,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Creation Time"
+                        android:text="@string/label_Order_Creation_Time"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -272,7 +271,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Expected Delivery Time"
+                        android:text="@string/label_Expected_Delivery_Time"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -298,7 +297,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Delivery Address Identifier"
+                        android:text="@string/label_Delivery_Address_Identifier"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -326,7 +325,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Delivery Time Accepted"
+                        android:text="@string/label_Delivery_Time_Accepted"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -353,7 +352,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Pickup By"
+                        android:text="@string/label_Order_Delivered_By"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -380,7 +379,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Picked Up Time"
+                        android:text="@string/label_Picked_Up_Time"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -407,7 +406,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Accepted By Customer"
+                        android:text="@string/label_Order_Accepted_By_Customer"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -434,7 +433,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Amount Collected"
+                        android:text="@string/label_Amount_Collected"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -461,7 +460,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Acceptance Receipt Collected"
+                        android:text="@string/label_Acceptance_Receipt_Collected"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -488,7 +487,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Invoice Amount Collected"
+                        android:text="@string/label_Invoice_Amount_Collected"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -516,7 +515,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Cancellation Reason"
+                        android:text="@string/label_Cancellation_Reason"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -544,7 +543,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Dispute Message"
+                        android:text="@string/label_Dispute_Message"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 
@@ -572,7 +571,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Dispute Resolution Comment"
+                        android:text="@string/label_Dispute_Resolution_Comment"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_13" />
 

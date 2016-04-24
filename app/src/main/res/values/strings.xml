@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Customer App</string>
+    <string name="app_name">Bareily Bazar</string>
+    <string name="tag_line1">Share own market value...</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
@@ -41,4 +42,116 @@
     <string name="enter_term_condition">Please chack Term and Condition</string>
     <string name="enter_flatnumber">Please enter flat or house number</string>
     <string name="enter_add_idenitifier">Please enter address identifier like (House name, Your name, Address, City ext name, which is unique identifier)</string>
+
+    <!-- Add Address -->
+    <string name="label_Address_Identifier">Address Identifier</string>
+    <string name="hint_Address_Identifier">Address Identifier</string>
+    <string name="label_Flat_Building_Street">Flat/Building/Street</string>
+    <string name="hint_Flat_Building_Street">Flat/Building/Street</string>
+    <string name="label_Locality">Locality</string>
+    <string name="hint_Locality">Locality</string>
+    <string name="label_State">State</string>
+    <string name="label_City">City</string>
+    <string name="label_Add_Address">Add Address</string>
+
+    <!-- Contact Us -->
+    <string name="label_User_ID">User ID</string>
+    <string name="label_Message">Message</string>
+    <string name="hint_Message">Message</string>
+    <string name="label_Send_Message">Send Message</string>
+
+    <string name="msg_no_address_found">No address is here.\nPlease click on add button to add a address.</string>
+
+    <!-- Contact Us -->
+    <string name="label_Registration_label1">Let\'s start by verifying your 10-digit</string>
+    <string name="label_Registration_label2">We will send a one time SMS message to verify your mobile number</string>
+    <string name="label_Mobile_Number">Mobile Number</string>
+    <string name="hint_Mobile_Number">Mobile Number</string>
+    <string name="label_Country_Code">+91</string>
+    <string name="label_Continue">Continue</string>
+    <string name="label_verify_OTP">Let\'s start by verifying your 6-digit</string>
+    <string name="label_OTP_Number">OTP Number</string>
+    <string name="hint_OTP_Number">OTP Number</string>
+    <string name="label_Confirm_OTP">Confirm OTP</string>
+    <string name="label_Delivery">Delivery</string>
+
+
+    <string name="label_Skip_Registraion">Skip Registraion</string>
+    <string name="label_Name">Name</string>
+    <string name="hint_Name">Name</string>
+    <string name="label_Email_ID">Email ID</string>
+    <string name="hint_Email_ID">Email ID</string>
+    <string name="label_Register_User">Register User</string>
+
+    <string name="label_Order_ID">Order ID</string>
+    <string name="label_Amount">Amount</string>
+    <string name="label_Total_Rs">Total Rs.</string>
+    <string name="label_Order_Placed_By">Order Placed By</string>
+    <string name="label_Order_Placed_To">Order Placed To</string>
+    <string name="label_Delivery_Type">Delivery Type</string>
+    <string name="label_Payment_Method">Payment Method</string>
+    <string name="label_Order_Status">Order Status</string>
+    <string name="label_Customer_Message">Customer Message</string>
+    <string name="label_Order_Creation_Time">Order Creation Time</string>
+    <string name="label_Expected_Delivery_Time">Expected Delivery Time(HH:MM)</string>
+    <string name="label_Delivery_Address_Identifier">Delivery Address Identifier</string>
+    <string name="label_Delivery_Time_Accepted">Delivery Time Accepted</string>
+    <string name="label_Order_Delivered_By">Order Delivered By</string>
+    <string name="label_Picked_Up_Time">Picked Up Time</string>
+    <string name="label_Order_Accepted_By_Customer">Order Accepted By Customer</string>
+    <string name="label_Amount_Collected">Amount Collected</string>
+    <string name="label_Acceptance_Receipt_Collected">Acceptance Receipt Collected</string>
+    <string name="label_Invoice_Amount_Collected">Invoice Amount Collected</string>
+    <string name="label_Cancellation_Reason">Cancellation Reason</string>
+    <string name="label_Dispute_Message">Dispute Message</string>
+    <string name="label_Dispute_Resolution_Comment">Dispute Resolution Comment</string>
+    <string name="label_Checkout">Checkout</string>
+    <string name="label_Continue_Shopping">Continue Shopping</string>
+
+    <string name="label_Total_Quantity">Total Quantity</string>
+
+    <string name="label_Shop_Detail">Shop Detail</string>
+
+    <string name="label_Remove">Remove</string>
+    <string name="label_Update">Update</string>
+
+    <string name="label_Home">Home</string>
+    <string name="label_Quoted_Ammount">Quoted Ammount</string>
+
+    <string name="label_Popular_Categories_Name">Popular Categories Name</string>
+
+    <string name="label_Error_Code">Error Code</string>
+    <string name="label_Error_Message">Error Message</string>
+    <string name="label_Support_Contact_Number">Support Contact Number</string>
+    <string name="label_OK">OK</string>
+    <string name="label_NO">NO</string>
+    <string name="label_YES">YES</string>
+
+    <string name="label_Popular_Categories">Popular Categories</string>
+
+    <string name="label_Edit">Edit</string>
+    <string name="msg_Empty_Cart">My Cart is not available.\nPlease add a cart</string>
+
+    <string name="label_Open_Now">Open Now</string>
+    <string name="label_I_Like">I Like</string>
+    <string name="label_Share_Body">Hey! I am using <application_name/> since few days. I like it very much. So I thought, should be sharing it with you.\nThanks</string>
+    <string name="label_Share_via">Share via</string>
+    <string name="label_Sort_by">Sort by</string>
+    <string name="label_Update_Address">Update Address</string>
+    <string name="label_Order_ID_not_available">Order ID is not available.</string>
+    <string name="label_Update_Profile">Register User</string>
+
+    <string name="title_Update_Address">Update Address</string>
+    <string name="title_Add_Address">Update Address</string>
+    <string name="title_Contact_Us">Contact Us</string>
+    <string name="title_Delivery_Address">Delivery Address</string>
+    <string name="title_Update_Profile">Update Profile</string>
+    <string name="title_Register_User">Update Profile</string>
+    <string name="title_My_Order">My Order</string>
+    <string name="title_Order_Details">Order Details</string>
+    You have no address added.\n So please add address.
+    <string name="msg_no_order_found">My order is not available.\nPlease add a cart</string>
+    <string name="msg_account_update_success">Your account successfully update...</string>
+    <string name="msg_account_create_success">Your account successfully created...</string>
+
 </resources>

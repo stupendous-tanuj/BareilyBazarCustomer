@@ -18,7 +18,7 @@
         android:layout_centerVertical="true"
         android:gravity="center"
         android:padding="@dimen/dp_10"
-        android:text="No address is here.\nPlease click on add button to add a address."
+        android:text="@string/msg_no_address_found"
         android:textColor="@color/color_base"
         android:textSize="@dimen/sp_20" />
 

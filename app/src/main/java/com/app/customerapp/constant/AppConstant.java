@@ -73,6 +73,11 @@ public class AppConstant {
         int UPDATE_LOCATION = 1;
     }
 
+    public interface STATUS {
+        String STATUS_UNKNOWN = "Unknown";
+    }
+
+
     public interface ResponseExtra {
         java.lang.String GET_UPDATE_LOCATION = "GET_UPDATE_LOCATION";
     }

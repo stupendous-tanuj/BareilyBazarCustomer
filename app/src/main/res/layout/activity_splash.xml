@@ -14,7 +14,7 @@
         android:shadowDx="10"
         android:shadowDy="10"
         android:shadowRadius="5"
-        android:text="Customer App"
+        android:text="@string/app_name"
         android:textColor="@color/white"
         android:textSize="@dimen/sp_40"
         android:textStyle="bold" />
@@ -31,7 +31,7 @@
         android:shadowDx="5"
         android:shadowDy="5"
         android:shadowRadius="3"
-        android:text="Share own market value..."
+        android:text="@string/tag_line1"
         android:textColor="@color/white"
         android:textSize="@dimen/sp_15"
         android:textStyle="italic" />

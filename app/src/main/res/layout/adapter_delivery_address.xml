@@ -36,7 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/dp_5"
-                    android:text="97118876"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_13" />
 
@@ -46,7 +46,7 @@
                     android:layout_width="@dimen/dp_250"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/dp_5"
-                    android:text="10\nSector 30\Noida Utter Prades dks cj oj o dodjw odop djdpo  h\n201301"
+                    android:text=""
                     android:textColor="@color/color_base"
                     android:textSize="@dimen/sp_14" />
 
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
                     android:padding="@dimen/dp_4"
-                    android:text="Remove"
+                    android:text="@string/label_Remove"
                     android:textColor="@color/color_base"
                     android:textSize="@dimen/sp_8"
                     android:textStyle="italic|bold" />
@@ -76,7 +76,7 @@
                     android:layout_marginLeft="@dimen/dp_5"
                     android:background="@drawable/edittext_background"
                     android:padding="@dimen/dp_4"
-                    android:text="Update"
+                    android:text="@string/label_Update"
                     android:textColor="@color/color_base"
                     android:textSize="@dimen/sp_8"
                     android:textStyle="italic|bold" />

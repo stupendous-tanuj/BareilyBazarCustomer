@@ -152,11 +152,11 @@ public class HomeActivity extends CustomerAppBaseActivity {
                 break;
             case R.id.linear_home_track_order:
                 if (PreferenceKeeper.getInstance().getOrderId() == null || PreferenceKeeper.getInstance().getOrderId().equals("")) {
-                    showToast("order id is not available");
+                    showToast(getString(R.string.label_Order_ID_not_available));
                 } else {
                     Bundle bundle1 = new Bundle();
                     bundle1.putString(AppConstant.BUNDLE_KEY.ORDER_ID, PreferenceKeeper.getInstance().getOrderId());
-                    bundle1.putString(AppConstant.BUNDLE_KEY.ORDER_STATUS, "Unknown");
+                    bundle1.putString(AppConstant.BUNDLE_KEY.ORDER_STATUS, AppConstant.STATUS.STATUS_UNKNOWN);
                     launchActivity(MyOrderDetailActivity.class, bundle1);
                 }
 
@@ -192,7 +192,7 @@ public class HomeActivity extends CustomerAppBaseActivity {
 
         switch (position) {
             case 0: //  home fragment
-                homeTitle.setText("Customer App");
+                homeTitle.setText(getString(R.string.app_name));
                 replaceFragment(R.id.container, new HomeFragment());//joinUssBaseFragment);
                 break;
 
@@ -202,10 +202,10 @@ public class HomeActivity extends CustomerAppBaseActivity {
     private void shareApp() {
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
-        String shareBody = "Here is the share content body";
-        sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject Here");
+        String shareBody = getString(R.string.label_Share_Body);
+        sharingIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.label_I_Like)+" "+getString(R.string.app_name));
         sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
-        startActivity(Intent.createChooser(sharingIntent, "Share via"));
+        startActivity(Intent.createChooser(sharingIntent, getString(R.string.label_Share_via)));
     }
 
     private void rateApp() {

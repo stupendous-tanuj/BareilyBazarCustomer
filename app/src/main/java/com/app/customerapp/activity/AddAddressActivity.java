@@ -41,7 +41,7 @@ public class AddAddressActivity extends CustomerAppBaseActivity {
         et_address_locality = (EditText) findViewById(R.id.et_address_locality);
         et_address_city = (EditText) findViewById(R.id.et_address_city);
         et_address_state = (EditText) findViewById(R.id.et_address_state);
-        et_address_pincode = (EditText) findViewById(R.id.et_address_pincode);
+
 
         tv_add_address = (TextView) findViewById(R.id.tv_add_address);
         tv_add_address.setOnClickListener(this);
@@ -52,8 +52,8 @@ public class AddAddressActivity extends CustomerAppBaseActivity {
             isUpdateAdapter = getIntent().getExtras().getBoolean(AppConstant.BUNDLE_KEY.IS_ADDRESS_UPDATE_ADAPTER);
             if (isUpdateAdapter) {
                 et_address_identifier.setEnabled(false);
-                tv_add_address.setText("Update Address");
-                setToolBarTitle("Update Address");
+                tv_add_address.setText(getString(R.string.update_address));
+                setToolBarTitle(getString(R.string.title_Update_Address));
                 String flatNumberHouseNumber = getIntent().getExtras().getString(AppConstant.BUNDLE_KEY.flatNumberHouseNumber);
                 String addressIdentifier = getIntent().getExtras().getString(AppConstant.BUNDLE_KEY.addressIdentifier);
                 String buildingSocietyStreet = getIntent().getExtras().getString(AppConstant.BUNDLE_KEY.buildingSocietyStreet);
@@ -70,8 +70,8 @@ public class AddAddressActivity extends CustomerAppBaseActivity {
                 et_address_pincode.setText(pincode);
 
             } else {
-                tv_add_address.setText("Add Address");
-                setToolBarTitle("Add Address");
+                tv_add_address.setText(getString(R.string.label_Add_Address));
+                setToolBarTitle(getString(R.string.title_Add_Address));
             }
         }
     }

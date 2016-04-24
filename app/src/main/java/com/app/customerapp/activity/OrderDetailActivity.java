@@ -57,7 +57,7 @@ public class OrderDetailActivity extends SubHolderActivity implements IOrderDeta
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order_detail);
         setUI();
-        setToolBarTitle("Order Detail");
+        setToolBarTitle(getString(R.string.title_Order_Details));
         setIntentDataOnUI();
         setDimensScrolling();
         getIntentData();

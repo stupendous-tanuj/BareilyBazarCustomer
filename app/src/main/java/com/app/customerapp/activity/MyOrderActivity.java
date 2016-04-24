@@ -27,7 +27,7 @@ public class MyOrderActivity extends CustomerAppBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_order);
         setUI();
-        setToolBarTitle("My Order");
+        setToolBarTitle(getString(R.string.title_My_Order));
         fetchMyOrderDetailApi();
     }
 
@@ -59,7 +59,7 @@ public class MyOrderActivity extends CustomerAppBaseActivity {
         if (carts == null) {
             lv_my_order.setVisibility(View.GONE);
             no_data_available.setVisibility(View.VISIBLE);
-            no_data_available.setText("My order is not available.\nPlease add a cart");
+            no_data_available.setText(getString(R.string.msg_no_order_found));
         } else {
             lv_my_order.setVisibility(View.VISIBLE);
             no_data_available.setVisibility(View.GONE);

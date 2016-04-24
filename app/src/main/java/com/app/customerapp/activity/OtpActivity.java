@@ -67,7 +67,7 @@ public class OtpActivity extends CustomerAppBaseActivity {
                 hideProgressBar();
                 saveUserData(result.getCustomerProfile());
                 launchActivityMain(HomeActivity.class);
-                showToast("Your account successfully created");
+                showToast(getString(R.string.msg_account_create_success));
                 finish();
             }
 

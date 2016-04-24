@@ -87,7 +87,7 @@
                         android:background="@drawable/edittext_background"
                         android:gravity="center"
                         android:padding="@dimen/dp_8"
-                        android:text="Delivery"
+                        android:text="@string/label_Delivery"
                         android:textColor="@color/color_base"
                         android:textSize="@dimen/sp_13" />
 
@@ -100,7 +100,7 @@
                         android:background="@drawable/edittext_background"
                         android:gravity="center"
                         android:padding="@dimen/dp_8"
-                        android:text="05.32 Km"
+                        android:text=""
                         android:textColor="@color/color_base"
                         android:textSize="@dimen/sp_13" />
                 </LinearLayout>
@@ -127,7 +127,7 @@
             android:id="@+id/tv_main_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text=""
             android:textColor="@color/white"
             android:textSize="@dimen/sp_15" />
 

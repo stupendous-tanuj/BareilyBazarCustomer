@@ -41,7 +41,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order ID"
+                        android:text="@string/label_Order_ID"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 
@@ -67,7 +67,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Placed By"
+                        android:text="@string/label_Order_Placed_By"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 
@@ -94,7 +94,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Placed To"
+                        android:text="@string/label_Order_Placed_To"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 
@@ -121,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Quoted Ammount"
+                        android:text="@string/label_Quoted_Ammount"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 
@@ -148,7 +148,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Delivery Type"
+                        android:text="@string/label_Delivery_Type"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 
@@ -175,7 +175,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Payment Method"
+                        android:text="@string/label_Payment_Method"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 
@@ -202,7 +202,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Status"
+                        android:text="@string/label_Order_Status"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 
@@ -229,7 +229,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Order Creation Time"
+                        android:text="@string/label_Order_Creation_Time"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 
@@ -256,7 +256,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Expected Delivery Time"
+                        android:text="@string/label_Expected_Delivery_Time"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 
@@ -283,7 +283,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_weight="1"
-                        android:text="Delivery Address Identifier"
+                        android:text="@string/label_Delivery_Address_Identifier"
                         android:textColor="@color/black"
                         android:textSize="@dimen/sp_13" />
 

@@ -29,7 +29,7 @@
             android:drawableLeft="@drawable/guests_accepted"
             android:drawablePadding="@dimen/dp_4"
             android:padding="@dimen/dp_8"
-            android:text="Delivery"
+            android:text="@string/label_Delivery_Type"
             android:textColor="@color/black"
             android:textSize="@dimen/sp_13" />
 
@@ -43,7 +43,7 @@
             android:drawableLeft="@drawable/guests_accepted"
             android:drawablePadding="@dimen/dp_4"
             android:padding="@dimen/dp_8"
-            android:text="Open Now"
+            android:text="@string/label_Open_Now"
             android:textColor="@color/black"
             android:textSize="@dimen/sp_13" />
 
@@ -57,7 +57,7 @@
             android:drawableLeft="@drawable/guests_accepted"
             android:drawablePadding="@dimen/dp_4"
             android:padding="@dimen/dp_8"
-            android:text="Sort by"
+            android:text="@string/label_Sort_by"
             android:textColor="@color/black"
             android:textSize="@dimen/sp_13" />
 

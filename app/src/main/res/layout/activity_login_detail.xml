@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp_5"
                 android:gravity="right"
-                android:text="Skip Registraion"
+                android:text="@string/label_Skip_Registraion"
                 android:textColor="@color/color_base"
                 android:textSize="@dimen/sp_13" />
 
@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp_5"
-                android:text="Mobile Number"
+                android:text="@string/label_Mobile_Number"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
 
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/edittext_background"
                 android:enabled="false"
-                android:hint="Enter your name"
+                android:hint="@string/hint_Mobile_Number"
                 android:padding="@dimen/dp_10"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp_5"
-                android:text="Name"
+                android:text="@string/label_Name"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
 
@@ -66,7 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edittext_background"
-                android:hint="Enter your name"
+                android:hint="@string/hint_Name"
                 android:padding="@dimen/dp_10"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
@@ -75,8 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp_5"
-                android:inputType="textEmailAddress"
-                android:text="Email"
+                android:text="@string/label_Email_ID"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
 
@@ -85,7 +84,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edittext_background"
-                android:hint="Enter your email"
+                android:inputType="textEmailAddress"
+                android:hint="@string/hint_Email_ID"
                 android:padding="@dimen/dp_10"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
@@ -123,7 +123,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_background"
-
                     android:hint="Enter flat number (Ex. B Block Rd)"
                     android:padding="@dimen/dp_10"
                     android:textColor="@color/black"

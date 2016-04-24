@@ -26,7 +26,7 @@ public class ContactUsActivity extends CustomerAppBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_us);
         setUI();
-        setToolBarTitle("Contact us");
+        setToolBarTitle(getString(R.string.title_Contact_Us));
         setUIListener();
     }
 
@@ -36,7 +36,6 @@ public class ContactUsActivity extends CustomerAppBaseActivity {
 
     private void setUI() {
         tv_contact_us_mobile_number = (TextView) findViewById(R.id.tv_contact_us_mobile_number);
-        tv_contact_us_name = (TextView) findViewById(R.id.tv_contact_us_name);
         et_contact_us_message = (EditText) findViewById(R.id.et_contact_us_message);
 
         tv_contact_us_mobile_number.setText(PreferenceKeeper.getInstance().getuserMobileNumber());

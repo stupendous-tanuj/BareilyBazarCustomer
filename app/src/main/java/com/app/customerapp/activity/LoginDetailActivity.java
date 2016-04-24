@@ -127,16 +127,16 @@ public class LoginDetailActivity extends CustomerAppBaseActivity {
     private void getIntentData() {
         if (getIntent() != null && getIntent().getExtras() != null) {
             isHomeProfile = getIntent().getExtras().getBoolean(AppConstant.BUNDLE_KEY.IS_HOME_MY_PROFILE);
-            setToolBarTitle("Update Profile");
-            tv_login_detail_register_user.setText("Update Profile");
+            setToolBarTitle(getString(R.string.title_Update_Profile));
+            tv_login_detail_register_user.setText(getString(R.string.label_Update_Profile));
             cb_login_detail.setChecked(true);
             tv_login_msg.setVisibility(View.GONE);
             linear_login_data_root.setVisibility(View.VISIBLE);
             tv_login_skip_registration.setVisibility(View.GONE);
         } else {
             tv_login_skip_registration.setVisibility(View.VISIBLE);
-            setToolBarTitle("Register User");
-            tv_login_detail_register_user.setText("Register User");
+            setToolBarTitle(getString(R.string.title_Register_User));
+            tv_login_detail_register_user.setText(getString(R.string.label_Register_User));
             tv_login_msg.setVisibility(View.VISIBLE);
             linear_login_data_root.setVisibility(View.GONE);
         }
@@ -261,7 +261,7 @@ public class LoginDetailActivity extends CustomerAppBaseActivity {
                         launchActivityMain(HomeActivity.class);
                         PreferenceKeeper.getInstance().setEmail(email);
                         PreferenceKeeper.getInstance().setName(name);
-                        showToast("Your account successfully update...");
+                        showToast(getString(R.string.msg_account_update_success));
                         hideProgressBar();
                         PreferenceKeeper.getInstance().setflatNumber(flatNumber);
                         PreferenceKeeper.getInstance().setArea(area);
@@ -307,7 +307,7 @@ public class LoginDetailActivity extends CustomerAppBaseActivity {
                     public void onSuccess(LoginResponse result) {
                         launchActivityMain(HomeActivity.class);
 
-                        showToast("Your account successfully created...");
+                        showToast(getString(R.string.msg_account_create_success));
                         hideProgressBar();
 
                         PreferenceKeeper.getInstance().setEmail(email);

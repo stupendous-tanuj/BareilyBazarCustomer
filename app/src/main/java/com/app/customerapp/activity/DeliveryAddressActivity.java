@@ -27,7 +27,7 @@ public class DeliveryAddressActivity extends CustomerAppBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delivery_address);
-        setToolBarTitle("Delivery Address");
+        setToolBarTitle(getString(R.string.title_Delivery_Address));
         setUI();
 
     }

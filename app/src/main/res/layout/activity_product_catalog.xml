@@ -19,7 +19,7 @@
                 android:id="@+id/tv_main_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Test"
+                android:text=""
                 android:textColor="@color/white"
                 android:textSize="@dimen/sp_15" />
 
@@ -51,7 +51,7 @@
                     android:id="@+id/tv_product_catelog_total_q"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Total Quantity : 0"
+                    android:text="@string/label_Total_Quantity"
                     android:textColor="@color/color_base"
                     android:textSize="@dimen/sp_13"
                     android:textStyle="bold" />
@@ -65,7 +65,7 @@
                     android:background="@drawable/button"
                     android:gravity="center"
                     android:padding="@dimen/dp_10"
-                    android:text="Countinue"
+                    android:text="@string/label_Continue"
                     android:textColor="@color/white"
                     android:textSize="@dimen/sp_13"
                     android:textStyle="bold" />

@@ -40,7 +40,7 @@
             android:id="@+id/tv_main_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Shop Detail"
+            android:text="@string/label_Shop_Detail"
             android:textColor="@color/white"
             android:textSize="@dimen/sp_15" />
 

@@ -225,7 +225,7 @@ public class PlaceOrderActivity extends CustomerAppBaseActivity {
         orders = PreferenceKeeper.getInstance().getOrderData();
         if (products == null || orders == null) {
             no_data_available.setVisibility(View.VISIBLE);
-            no_data_available.setText("My cart is not available.\nPlease add a cart");
+            no_data_available.setText(getString(R.string.msg_no_order_found));
             root_data.setVisibility(View.GONE);
         } else {
             no_data_available.setVisibility(View.GONE);

@@ -42,7 +42,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/dp_10"
             android:layout_toRightOf="@+id/framelayout"
-            android:text="Popular Categories Name"
+            android:text="@string/label_Popular_Categories_Name"
             android:textColor="@color/black"
             android:textSize="@dimen/sp_15" />
 

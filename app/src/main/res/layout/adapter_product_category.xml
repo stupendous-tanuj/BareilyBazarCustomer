@@ -46,7 +46,7 @@
                 android:id="@+id/tv_category_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Popular Categories Name"
+                android:text="@string/label_Popular_Categories_Name"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_15" />
 
@@ -54,7 +54,7 @@
                 android:id="@+id/tv_category_dec"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Popular Categories Name"
+                android:text="@string/label_Popular_Categories_Name"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_9" />
         </LinearLayout>

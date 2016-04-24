@@ -30,7 +30,7 @@
                 android:gravity="center_horizontal"
                 android:paddingLeft="@dimen/dp_20"
                 android:paddingRight="@dimen/dp_20"
-                android:text="Let's start by verifying your 10-digit"
+                android:text="@string/label_Registration_label1"
                 android:textColor="@color/color_base"
                 android:textSize="@dimen/sp_17" />
 
@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView"
                 android:gravity="center_horizontal"
-                android:text="Mobile Number"
+                android:text="@string/label_Mobile_Number"
                 android:textColor="@color/color_base"
                 android:textSize="@dimen/sp_17" />
 
@@ -55,7 +55,7 @@
                     android:layout_marginLeft="@dimen/dp_50"
                     android:layout_marginRight="@dimen/dp_5"
                     android:gravity="center"
-                    android:text="+91"
+                    android:text="@string/label_Country_Code"
                     android:textColor="@color/color_base"
                     android:textSize="@dimen/sp_15" />
 
@@ -68,7 +68,7 @@
                     android:layout_toEndOf="@+id/textView3"
                     android:layout_toRightOf="@+id/textView3"
                     android:background="@drawable/edittext_background"
-                    android:hint="Enter mobile number"
+                    android:hint="@string/hint_Mobile_Number"
                     android:inputType="phone"
                     android:paddingLeft="@dimen/dp_10"
                     android:paddingRight="@dimen/dp_10"
@@ -90,7 +90,7 @@
                 android:paddingLeft="@dimen/dp_35"
                 android:paddingRight="@dimen/dp_35"
                 android:paddingTop="@dimen/dp_10"
-                android:text="Continue"
+                android:text="@string/label_Continue"
                 android:textColor="@color/white"
                 android:textSize="@dimen/sp_16" />
 
@@ -102,7 +102,7 @@
                 android:gravity="center"
                 android:paddingLeft="@dimen/dp_50"
                 android:paddingRight="@dimen/dp_50"
-                android:text="We will send a one time SMS message to verify your mobile number"
+                android:text="@string/label_Registration_label2"
                 android:textColor="@color/color_base"
                 android:textSize="@dimen/sp_14" />
         </LinearLayout>

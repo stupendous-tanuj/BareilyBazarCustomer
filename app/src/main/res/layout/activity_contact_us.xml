@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dp_10"
-            android:text="Mobile Number"
+            android:text="@string/label_User_ID"
             android:textColor="@color/black"
             android:textSize="@dimen/sp_14"
              />
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dp_2"
-            android:text="9711887660"
+            android:text=""
             android:textColor="@color/color_base"
             android:textSize="@dimen/sp_14"
              />
@@ -41,26 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dp_10"
-            android:text="Name"
-            android:textColor="@color/black"
-            android:textSize="@dimen/sp_13"
-             />
-
-        <TextView
-            android:id="@+id/tv_contact_us_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_2"
-            android:text="Umesh"
-            android:textColor="@color/color_base"
-            android:textSize="@dimen/sp_13"
-             />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_10"
-            android:text="Message"
+            android:text="@string/label_Message"
             android:textColor="@color/black"
             android:textSize="@dimen/sp_13"
              />
@@ -72,7 +53,7 @@
             android:layout_marginTop="@dimen/dp_5"
             android:background="@drawable/edittext_background"
             android:gravity="top"
-            android:hint="Type your message"
+            android:hint="@string/hint_Message"
             android:lines="5"
             android:padding="@dimen/dp_10"
             android:textColor="@color/black"
@@ -91,7 +72,7 @@
         android:layout_marginRight="@dimen/dp_15"
         android:background="@color/color_base"
         android:padding="@dimen/dp_10"
-        android:text="Send Message"
+        android:text="@string/label_Send_Message"
         android:textColor="@color/white"
         android:textSize="@dimen/sp_14"
          />

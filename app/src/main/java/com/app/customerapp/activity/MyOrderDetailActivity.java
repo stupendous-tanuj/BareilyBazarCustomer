@@ -80,7 +80,7 @@ public class MyOrderDetailActivity extends CustomerAppBaseActivity {
         if (getIntent() != null && getIntent().getExtras() != null) {
             orderId = getIntent().getExtras().getString(AppConstant.BUNDLE_KEY.ORDER_ID);
             orderStatus = getIntent().getExtras().getString(AppConstant.BUNDLE_KEY.ORDER_STATUS);
-            setToolBarTitle("Order Details - " + orderId);
+            setToolBarTitle(getString(R.string.title_Order_Details)+" - " + orderId);
             fetchRecentTracOrderAPI(orderId, orderStatus);
         }
     }
