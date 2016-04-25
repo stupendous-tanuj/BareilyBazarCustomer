@@ -262,20 +262,26 @@ public class DialogUtils {
         return true;
     }
 
-    public static boolean isAddressVerifyEnter(AddAddressActivity activity, String flatNumber, String addressIdentifier, String locality, String pincode) {
+    public static boolean isAddressVerifyEnter(AddAddressActivity activity, String flatNumber, String addressIdentifier, String locality, String building) {
 
         boolean cflatNumber = TextUtils.isEmpty(flatNumber);
         boolean caddressIdentifier = TextUtils.isEmpty(addressIdentifier);
         boolean clocality = TextUtils.isEmpty(locality);
-        boolean cpincode = TextUtils.isEmpty(pincode);
+        boolean cbuilding = TextUtils.isEmpty(building);
+
+
+        if (caddressIdentifier) {
+            DialogUtils.showDialog(activity, activity.getString(R.string.enter_add_idenitifier));
+            return false;
+        }
 
         if (cflatNumber) {
             DialogUtils.showDialog(activity, activity.getString(R.string.enter_flatnumber));
             return false;
         }
 
-        if (caddressIdentifier) {
-            DialogUtils.showDialog(activity, activity.getString(R.string.enter_add_idenitifier));
+        if (cbuilding) {
+            DialogUtils.showDialog(activity, activity.getString(R.string.enter_building));
             return false;
         }
 
@@ -284,10 +290,6 @@ public class DialogUtils {
             return false;
         }
 
-        if (cpincode) {
-            DialogUtils.showDialog(activity, activity.getString(R.string.enter_pincode));
-            return false;
-        }
         return true;
 
     }

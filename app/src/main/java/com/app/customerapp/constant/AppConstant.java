@@ -1,5 +1,8 @@
 package com.app.customerapp.constant;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by sonia on 18/8/15.
  */
@@ -50,6 +53,39 @@ public class AppConstant {
         String LOC_UPDTE_LOGIN = "loc_updte";
         String SHOP_CATEGORY_IMGE = "SHOP_CATEGORY_IMGE";
     }
+
+    public interface STATE {
+        String STATE_UP = "Uttar Pradesh";
+    }
+
+    public static List<String> fetchState() {
+        final List<String> stateList = new ArrayList<>();
+        stateList.add(STATE.STATE_UP);
+        return stateList;
+    }
+
+
+
+    public static List<String> fetchCities(String state)
+    {
+        final List<String> cityList = new ArrayList<>();
+        if(state.equals(STATE.STATE_UP)) {
+            cityList.add(CITY.CITY_BAREILLY);
+        }
+
+        return cityList;
+    }
+
+    public interface CITY {
+        String CITY_BAREILLY = "Bareilly";
+    }
+
+    public interface LANGUAGE {
+        String LANGUAGE_ENGLISH = "English";
+        String LANGUAGE_MARATHI = "Marathi";
+        String LANGUAGE_HINDI = "Hindi";
+    }
+
 
     public interface PreferenceKeeperNames {
         String USER_MOBILE_NUMBER = "mobile_number";

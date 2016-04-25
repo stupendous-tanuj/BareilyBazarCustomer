@@ -33,7 +33,7 @@ import java.util.Map;
 public class AppRequestBuilder {
 
     public static String TAG = HomeActivity.class.getSimpleName();
-    private static final String BASE_URL = "http://stupendoustanuj.co.nf/ShopTheFortune";
+    private static final String BASE_URL = "http://shopthefortune.com/shopthefortune/api/bareillybazar/test";
 
     // http://stupendoustanuj.co.nf/ShopTheFortune/ Verify_Mobile_Number.php
 
@@ -174,7 +174,7 @@ public class AppRequestBuilder {
 // http://stupendoustanuj.co.nf/ShopTheFortune/Add_A_Address.php
 
     public static AppHttpRequest addAddressAPI(String flatHouseNumber, String addressIdentifier, String buildingSStreet, String areaLocality,
-                                               String city, String state, String pincode, AppResponseListener<CommonResponse> appResponseListener) {
+                                               String city, String state, AppResponseListener<CommonResponse> appResponseListener) {
         AppHttpRequest request = AppHttpRequest.getPostRequest(BASE_URL + "/Add_A_Address.php", appResponseListener);
 
         Map<String, String> map = new LinkedHashMap<String, String>();
@@ -185,14 +185,13 @@ public class AppRequestBuilder {
         map.put("areaLocality", areaLocality);
         map.put("city", city);
         map.put("state", state);
-        map.put("pincode", pincode);
         request.addParam("input", setRequestBody(map));
         return request;
     }
 
     // http://stupendoustanuj.co.nf/ShopTheFortune/Update_A_Address.php
     public static AppHttpRequest updateAddressAPI(String flatHouseNumber, String addressId, String buildingSStreet, String areaLocality,
-                                                  String city, String state, String pincode, AppResponseListener<CommonResponse> appResponseListener) {
+                                                  String city, String state, AppResponseListener<CommonResponse> appResponseListener) {
         AppHttpRequest request = AppHttpRequest.getPostRequest(BASE_URL + "/Update_A_Address.php", appResponseListener);
 
         Map<String, String> map = new LinkedHashMap<String, String>();
@@ -203,7 +202,6 @@ public class AppRequestBuilder {
         map.put("areaLocality", areaLocality);
         map.put("city", city);
         map.put("state", state);
-        map.put("pincode", pincode);
         request.addParam("input", setRequestBody(map));
         return request;
     }

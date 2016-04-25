@@ -14,6 +14,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.google.gson.stream.JsonReader;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -41,6 +42,9 @@ public class AppUtil {
     public static JsonObject parseJson(String response) {
         JsonObject jo = null;
         JsonElement e = null;
+        if(response.charAt(0)!='{')
+            response = response.substring(3);
+        Log.i("Response test", response.substring(3));
         return new JsonParser().parse(response).getAsJsonObject();
     }
 

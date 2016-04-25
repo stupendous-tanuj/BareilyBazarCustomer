@@ -41,13 +41,16 @@
     <string name="enter_pincode">Please enter pincode</string>
     <string name="enter_term_condition">Please chack Term and Condition</string>
     <string name="enter_flatnumber">Please enter flat or house number</string>
+    <string name="enter_building">Please enter Building/Society/Street.</string>
     <string name="enter_add_idenitifier">Please enter address identifier like (House name, Your name, Address, City ext name, which is unique identifier)</string>
 
     <!-- Add Address -->
     <string name="label_Address_Identifier">Address Identifier</string>
     <string name="hint_Address_Identifier">Address Identifier</string>
-    <string name="label_Flat_Building_Street">Flat/Building/Street</string>
-    <string name="hint_Flat_Building_Street">Flat/Building/Street</string>
+    <string name="label_Flat_Number">Flat Number/House Number</string>
+    <string name="hint_Flat_Number">Flat Number/House Number</string>
+    <string name="label_Building_Street">Building/Society/Street</string>
+    <string name="hint_Building_Street">Building/Society/Street</string>
     <string name="label_Locality">Locality</string>
     <string name="hint_Locality">Locality</string>
     <string name="label_State">State</string>
@@ -142,7 +145,7 @@
     <string name="label_Update_Profile">Register User</string>
 
     <string name="title_Update_Address">Update Address</string>
-    <string name="title_Add_Address">Update Address</string>
+    <string name="title_Add_Address">Add Address</string>
     <string name="title_Contact_Us">Contact Us</string>
     <string name="title_Delivery_Address">Delivery Address</string>
     <string name="title_Update_Profile">Update Profile</string>

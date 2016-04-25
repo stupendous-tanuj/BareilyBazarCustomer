@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp_15"
-                android:text="@string/label_Flat_Building_Street"
+                android:text="@string/label_Flat_Number"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
 
@@ -53,9 +53,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edittext_background"
-                android:hint="@string/hint_Flat_Building_Street"
+                android:hint="@string/hint_Flat_Number"
                 android:padding="@dimen/dp_10"
                 android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_15"
+                android:text="@string/label_Building_Street"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_13" />
+
+            <EditText
+                android:id="@+id/et_address_building"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:hint="@string/hint_Building_Street"
+                android:padding="@dimen/dp_10"
+                android:textSize="@dimen/sp_13" />
+
 
 
             <TextView
@@ -83,17 +101,10 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
 
-            <EditText
-                android:id="@+id/et_address_state"
+            <Spinner
+                android:id="@+id/spinner_state"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edittext_background"
-                android:enabled="false"
-                android:padding="@dimen/dp_10"
-                android:text="Uttar Pradesh"
-                android:textColor="@color/black"
-                android:textSize="@dimen/sp_13"
-                android:textStyle="bold" />
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -103,17 +114,10 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
 
-            <EditText
-                android:id="@+id/et_address_city"
+            <Spinner
+                android:id="@+id/spinner_city"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edittext_background"
-                android:enabled="false"
-                android:padding="@dimen/dp_10"
-                android:text="Bareily"
-                android:textColor="@color/black"
-                android:textSize="@dimen/sp_13"
-                android:textStyle="bold" />
+                android:layout_height="wrap_content" />
 
 
         </LinearLayout>
