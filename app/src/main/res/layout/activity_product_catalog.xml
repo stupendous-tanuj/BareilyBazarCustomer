@@ -62,7 +62,7 @@
                     android:layout_height="@dimen/dp_40"
                     android:layout_marginLeft="@dimen/dp_15"
                     android:layout_marginRight="@dimen/dp_10"
-                    android:background="@drawable/button"
+                    android:background="@color/color_base"
                     android:gravity="center"
                     android:padding="@dimen/dp_10"
                     android:text="@string/label_Continue"

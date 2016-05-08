@@ -1,7 +1,6 @@
 <resources>
 
 
-
     <dimen name="sp_1">1sp</dimen>
     <dimen name="sp_2">2sp</dimen>
     <dimen name="sp_3">3sp</dimen>
@@ -644,4 +643,8 @@
     <dimen name="dp_319">319dp</dimen>
     <dimen name="dp_320">320dp</dimen>
     <dimen name="chat_user_icon">55dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

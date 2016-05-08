@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.customerapp">
+    package="com.app.bareillybazarcustomer">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <!-- GCM Maifest Permission -->
     <!-- Keeps the processor from sleeping when a message is received. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!-- Creates a custom permission so only this app can receive its messages. -->
     <permission
-        android:name="com.app.customerapp.permission.C2D_MESSAGE"
+        android:name="com.app.bareillybazarcustomer.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
     <!-- This app has permission to register and receive data message. -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -39,97 +40,85 @@
         </activity>
         <activity
             android:name=".activity.HomeActivity"
-            android:label="@string/app_name"></activity>
-
+            android:label="@string/app_name" />
         <activity
             android:name=".activity.ShopDetailActivity"
-            android:label="@string/app_name">
-
-        </activity>
-
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".activity.ProductCategoryActivity"
-            android:label="@string/app_name">
-
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".activity.LoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
-
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
         <activity
             android:name=".activity.ProductCatalogActivity"
-            android:label="@string/app_name">
-
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".activity.LoginDetailActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
-
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
         <activity
             android:name=".activity.OtpActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
-
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
         <activity
             android:name=".activity.PlaceOrderActivity"
-            android:label="@string/app_name"></activity>
-
+            android:label="@string/app_name" />
         <activity
             android:name=".activity.DeliveryAddressActivity"
-            android:label="@string/app_name"></activity>
-
+            android:label="@string/app_name" />
         <activity
             android:name=".activity.AddAddressActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
-
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
         <activity
             android:name=".activity.ContactUsActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
-
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
         <activity
             android:name=".activity.UpdateLocationActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
-
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
         <activity
             android:name=".activity.MyOrderActivity"
-            android:label="@string/app_name"></activity>
-
+            android:label="@string/app_name" />
         <activity
             android:name=".activity.TrackRecentOrderActivity"
-            android:label="@string/app_name"></activity>
-
+            android:label="@string/app_name" />
         <activity
             android:name=".activity.OrderDetailActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".activity.MyOrderDetailActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
 
-
-        <!--  receiver for gcm -->
+        <!-- receiver for gcm -->
         <receiver
             android:name=".notification.TestGcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="com.app.customerapp" />
+
+                <category android:name="com.app.bareillybazarcustomer" />
             </intent-filter>
         </receiver>
-        <!--  service for gcm -->
+        <!-- service for gcm -->
         <service android:name=".notification.GcmIntentService" />
 
+        <!-- receiver for gcm -->
+        <!-- service for gcm -->
+
+        <activity
+            android:name=".activity.NoInternetConnectionActivity"
+            android:label="@string/title_activity_no_internet_connection"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

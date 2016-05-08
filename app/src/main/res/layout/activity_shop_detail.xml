@@ -7,12 +7,15 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        />
 
     <FrameLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_300">
+        android:layout_height="@dimen/dp_300"
+
+        >
 
         <ImageView
             android:id="@+id/iv_shop_detil"
@@ -22,7 +25,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/index" />
 
-        <com.app.customerapp.utils.PagerSlidingTabStrip
+        <com.app.bareillybazarcustomer.utils.PagerSlidingTabStrip
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_50"

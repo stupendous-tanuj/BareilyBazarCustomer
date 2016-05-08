@@ -113,7 +113,7 @@
                         android:layout_marginBottom="@dimen/dp_10"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_marginTop="@dimen/dp_10"
-                        android:text="@string/label_Expected_Delivery_Time"
+                        android:text="@string/label_Expected_Delivery_After"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_15" />
 
@@ -121,7 +121,7 @@
                         android:id="@+id/spinner_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:gravity="right"
                         android:singleLine="true" />
                 </LinearLayout>
 
@@ -135,7 +135,7 @@
                         android:layout_marginBottom="@dimen/dp_10"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_marginTop="@dimen/dp_10"
-                        android:text="@string/label_Delivery_Address_Identifier"
+                        android:text="@string/label_Delivery_Address"
                         android:textColor="@color/white"
                         android:textSize="@dimen/sp_15" />
 
@@ -151,6 +151,7 @@
                             android:layout_marginBottom="@dimen/dp_10"
                             android:layout_marginLeft="@dimen/dp_10"
                             android:layout_marginTop="@dimen/dp_10"
+                            android:gravity="right"
                             android:background="@drawable/edittext_background"
                             android:padding="@dimen/dp_5"
                             android:text="@string/label_Add_Address"
@@ -161,7 +162,7 @@
                             android:id="@+id/spinner_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
+                            android:gravity="right"
                             android:singleLine="true"
                             android:visibility="gone" />
                     </LinearLayout>

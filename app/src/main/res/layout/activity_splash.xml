@@ -5,6 +5,16 @@
     android:layout_height="match_parent"
     android:background="@color/color_base">
 
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/sp_250"
+        android:layout_height="@dimen/sp_250"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_50"
+        android:src="@drawable/logo"
+        />
+
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

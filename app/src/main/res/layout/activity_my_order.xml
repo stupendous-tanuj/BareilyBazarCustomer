@@ -10,23 +10,143 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar_root_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_base"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_5">
+
+                <LinearLayout
+                    android:id="@+id/linear_home_from_dte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_background"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_8">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_weight="1"
+
+                        android:text="From Date"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_15" />
+
+                    <TextView
+                        android:id="@+id/tv_from_dte_home"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:gravity="left"
+                        android:text=""
+                        android:textColor="@color/color_base"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_home_to_dte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_background"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_8">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_weight="1"
+
+                        android:text="To Date"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_15" />
+
+                    <TextView
+                        android:id="@+id/tv_to_dte_home"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:gravity="left"
+                        android:text=""
+                        android:textColor="@color/color_base"
+                        android:textSize="@dimen/sp_13" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_orderStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:layout_below="@+id/linear_home_to_dte"
+                    android:padding="@dimen/dp_8">
+
+
+                    <TextView
+                        android:id="@+id/tv_orderStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:textSize="@dimen/sp_15"
+                        android:text="@string/label_Order_Status"
+                        android:textColor="@color/black"
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner_orderStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"></Spinner>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv_my_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/container"
+                android:divider="@android:color/transparent" />
+
+            </LinearLayout>
+
+
     <TextView
         android:id="@+id/no_data_available"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
+        android:padding="@dimen/dp_10"
+        android:text=""
         android:textColor="@color/color_base"
         android:textSize="@dimen/sp_20"
         android:visibility="gone" />
 
-    <ListView
-        android:id="@+id/lv_my_order"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/toolbar_root_layout"
-        android:divider="@android:color/transparent" />
 
     <ProgressBar
         android:id="@+id/progressBar"

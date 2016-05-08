@@ -49,6 +49,7 @@
                 android:enabled="false"
                 android:hint="@string/hint_Mobile_Number"
                 android:padding="@dimen/dp_10"
+                android:editable="false"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
 
@@ -69,6 +70,7 @@
                 android:hint="@string/hint_Name"
                 android:padding="@dimen/dp_10"
                 android:textColor="@color/black"
+                android:maxLength="30"
                 android:textSize="@dimen/sp_13" />
 
             <TextView
@@ -89,6 +91,32 @@
                 android:padding="@dimen/dp_10"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="@string/label_State"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_13" />
+
+            <Spinner
+                android:id="@+id/spinner_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="@string/label_City"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_13" />
+
+            <Spinner
+                android:id="@+id/spinner_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/tv_login_location"
@@ -219,25 +247,7 @@
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_13" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/dp_5">
 
-                    <CheckBox
-                        android:id="@+id/cb_login_detail"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                    <TextView
-                        android:id="@+id/tv_login_term_condition"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="@dimen/dp_6"
-                        android:autoLink="web"
-                        android:textColor="@color/color_base"
-                        android:textSize="@dimen/sp_13" />
-                </LinearLayout>
             </LinearLayout>
 
             <TextView
@@ -248,7 +258,30 @@
                 android:gravity="center"
                 android:text="Please click on\n'Location (set here your location)'.\nTo set of your location as your profile details. "
                 android:textColor="@color/color_base"
+                android:visibility="gone"
                 android:textSize="@dimen/sp_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5">
+
+                <CheckBox
+                    android:id="@+id/cb_login_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_login_term_condition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_6"
+                    android:text="@string/label_term_condition"
+                    android:autoLink="web"
+                    android:textColor="@color/color_base"
+                    android:textSize="@dimen/sp_13" />
+            </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>

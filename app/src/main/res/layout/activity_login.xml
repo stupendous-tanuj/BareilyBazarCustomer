@@ -20,7 +20,7 @@
                 android:layout_height="@dimen/dp_100"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/dp_50"
-                android:src="@drawable/index" />
+                android:src="@drawable/logo" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -69,6 +69,7 @@
                     android:layout_toRightOf="@+id/textView3"
                     android:background="@drawable/edittext_background"
                     android:hint="@string/hint_Mobile_Number"
+                    android:maxLength="10"
                     android:inputType="phone"
                     android:paddingLeft="@dimen/dp_10"
                     android:paddingRight="@dimen/dp_10"
