@@ -232,10 +232,7 @@ public class HomeActivity extends BaseActivity {
             cursor.close();
             iv_signup_profile.setImageBitmap(BitmapFactory.decodeFile(picturePath));
             PreferenceKeeper.getInstance().setUserProfilePicturePath(picturePath);
-
         }
-
-
     }
 
     private void logout() {

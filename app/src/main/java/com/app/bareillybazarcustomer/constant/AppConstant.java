@@ -15,7 +15,7 @@ public class AppConstant {
     public static boolean PRODUCT_IS_NULL_ORDER_DETAIL = false;
     public static final String DEFAULT_LOCALE = "en";
     public static final String TERMS_CONDITION_LINK = "http://www.google.co.in/";
-
+    public static final String COUNTRY = "India";
 
     public interface FRAGMENT_POS {
         int FRAGMENT_HOME_POSITION = 0;
